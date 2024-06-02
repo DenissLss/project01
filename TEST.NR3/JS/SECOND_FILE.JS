@@ -51,3 +51,12 @@ console.log("p value after {}: " + p);
 //console.log("p value after {} and after = action: " + p);
 //const p = 40;
 //console.log("p value after {} and after repeat const: " + p);
+
+
+let text = "Random sentence";
+
+document.getElementById("demo").innerHTML = text;
+
+text = "Random sentence";
+
+document.getElementById("demo").innerHTML = text;
