@@ -57,11 +57,11 @@ let text = "Random sentence";
 
 document.getElementById("demo").innerHTML = text;
 
-text = "Random sentence";
+text = "Some random sentence";
 
 document.getElementById("demo").innerHTML = text;
 }
 
 function myFunction() {
-    document.getElementById("demo").innerHTML = "Paragraph changed.";
+    document.getElementById("demo").innerHTML = "You did it!";
   }
