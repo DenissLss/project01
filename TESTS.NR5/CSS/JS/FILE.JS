@@ -25,21 +25,22 @@ console.log(now.getHours());
 //    console.log("Output Nr.2 from if.");
 //    document.getElementById("demo").innerHTML = "Good day!";
 //} 
-
+//if (nosacijums) (darbibas) else (darbibas;)
+//if (nosacijums) (darbibas) else if (nosacijums (darbibas;)
 console.log((new Date()).getMilliseconds);
 if (now.getHours() > night_hour_b && now.getHours() < morning_hour) {
     document.getElementById("demo").innerHTML = "Good morning!";
 }
-if (now.getHours() > morning_hour && now.getHours() < day_hour) {
+else if (now.getHours() > morning_hour && now.getHours() < day_hour) {
     document.getElementById("demo").innerHTML = "Good day!";
 }
 
-if (now.getHours() > day_hour && now.getHours() < night_hour_a) {
+else if (now.getHours() > day_hour && now.getHours() < night_hour_a) {
         document.getElementById("demo").innerHTML = "Good evening!";
     
 }
 
-if (now.getHours() > night_hour_a || now.getHours() < night_hour_b) {
+else if (now.getHours() > night_hour_a || now.getHours() < night_hour_b) {
     document.getElementById("demo").innerHTML = "Good night!";
 }
     
