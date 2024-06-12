@@ -1,6 +1,6 @@
-function toCelsius(f) {
-    return (5/9) * (f-32);
-  }
-  
-  let value = toCelsius();
-  document.getElementById("demo").innerHTML = value;
+let text = "The temperature is " + toCelsius(77) + " Celsius.";
+document.getElementById("demo").innerHTML = text;
+
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+} 
