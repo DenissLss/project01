@@ -1,6 +1,6 @@
 // Create an Object:
-const car = {type:"Fiat", model:"500", color:"white"};
+const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
 
 // Display Data from the Object:
 document.getElementById("demo").innerHTML =
-"The car type is " + car.type;
+person.firstName + " is " + person.age + " years old.";
